@@ -1,0 +1,7 @@
+<h2>Gestion des étudiants</h2>
+<p *ngIf="loading">Chargement...</p>
+<ul *ngIf="!loading">
+  <li *ngFor="let etu of etudiants">
+    <strong>{{ etu.nom }}</strong> ({{ etu.email }})
+  </li>
+</ul>

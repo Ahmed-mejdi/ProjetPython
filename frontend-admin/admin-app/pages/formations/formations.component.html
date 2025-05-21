@@ -1,0 +1,9 @@
+<h2>Gestion des formations</h2>
+<p *ngIf="loading">Chargement...</p>
+<ul *ngIf="!loading">
+  <li *ngFor="let f of formations">
+    <strong>{{ f.titre }}</strong> <span *ngIf="f.theme">({{ f.theme }})</span><br />
+    <span *ngIf="f.description">{{ f.description }}</span><br />
+    <span *ngIf="f.duree">Durée : {{ f.duree }}h</span>
+  </li>
+</ul>
