@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Plateforme de gestion de formations en ligne
 
 ## Structure du projet
@@ -32,3 +33,6 @@
 
 ## Auteur
 - Projet généré le 21/05/2025
+=======
+# ProjetPython
+>>>>>>> 34e32174e47190b29fe64f37e96a79b84026d42d
